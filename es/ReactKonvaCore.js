@@ -156,11 +156,10 @@ var StageWrap = React.forwardRef(function (props, ref) {
   return React.createElement(Stage, _extends({}, props, { forwardedRef: ref }));
 });
 
-// module.exports = {
-//   ...TYPES,
-//   __matchRectVersion,
-//   Stage: StageWrap,
-//   useStrictMode: toggleStrictMode
-// };
+export default _extends({}, TYPES, {
+  __matchRectVersion: __matchRectVersion,
+  Stage: StageWrap,
+  useStrictMode: toggleStrictMode
+});
 
 export { StageWrap as Stage };
