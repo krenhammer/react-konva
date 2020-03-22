@@ -63,4 +63,5 @@ function invariant(condition, format) {
   }
 }
 
-module.exports = invariant;
+//odule.exports = invariant;
+export {invariant}

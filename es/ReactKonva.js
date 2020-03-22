@@ -7,10 +7,10 @@
  */
 'use strict';
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var ReactKonvaCore = require('./ReactKonvaCore');
+export var ReactKonvaCore = require('./ReactKonvaCore');
 // import full konva to enable all nodes
 var Konva = require('konva');
 
-module.exports = _extends({}, ReactKonvaCore);
+// module.exports = {
+//   ...ReactKonvaCore
+// };

@@ -5,6 +5,5 @@ test/tests.bundle.js
 .DS_Store
 .idea
 .lock
-lib
 
 package-lock.json
